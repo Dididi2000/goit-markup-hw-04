@@ -176,21 +176,25 @@ img {
 /* Main-paige-section */
 
 .main-page-section {
-    display: flex;
-    flex-direction: column;
     padding: 188px 0;
     background-color: var(--color-main);
     background-image: 
     linear-gradient(
-        rgba(46, 47, 66, 0.70),
-        rgba(46, 47, 66, 0.70)
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
     ),
-    url(/images/people-office\ 1.jpg)
+    url(../images/people-office\ 1.jpg)
     ;
-    max-width: 1440px;
+    
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-position: 50% 50%;
 }
+
+
 .first-title{
     text-align: center;
     font-size: 56px;
@@ -325,14 +329,15 @@ img {
 .link-media,
 .social-link
 {
-    width: 100%;
-    height: 100%;
+    width: 40px;
+    height: 40px;
     background-color: #4d5ae5;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #f4f4fd;
 
 }
 
@@ -341,11 +346,6 @@ img {
     background-color: #404bbf;
 }
 
-.icon-team-media {
-    width: 40px;
-    height: 40px;
-    fill: none;
-}
 
 /* Portfolio section */
 
@@ -437,11 +437,6 @@ margin-bottom: 72px;
 .social-link:hover,
 .social-link:focus {
     background-color: #31d0aa;
-}
-.icon-end {
-    width: 40px;
-    height: 40px;
-    fill: none;
 }
 
 .link-logo-footer {
