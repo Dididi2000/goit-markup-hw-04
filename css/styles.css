@@ -342,6 +342,8 @@ img {
 }
 
 .icon-team-media {
+    width: 40px;
+    height: 40px;
     fill: none;
 }
 
